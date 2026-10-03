@@ -2,29 +2,48 @@
   "id": "electricity_high_bill",
   "category": "electricity",
   "issue": "high_or_incorrect_bill",
-  "problem_description": "The citizen reports that their electricity bill is unusually high or believes the bill may contain an error.",
-  "first_authority": "Relevant electricity distribution company",
-  "escalation_authority": "NEPRA",
-  "procedure": [
-    "Review the electricity bill and identify the issue.",
-    "Approach the relevant electricity distribution company or concerned SDO/XEN regarding the complaint.",
-    "If the grievance is not resolved, use the applicable NEPRA complaint process."
+
+  "problem_description": "The consumer reports that an electricity bill is unexpectedly high or believes there is an error in the bill.",
+
+  "authority": "Relevant electricity distribution company (DISCO)",
+
+  "complaint_types": [
+    "Wrong meter reading",
+    "Wrong calculation of charges",
+    "Defective meter",
+    "Wrong application of late payment surcharge",
+    "Billing adjustment issue",
+    "Detection bill"
   ],
-  "required_information": [
-    "CNIC",
-    "Name",
-    "Address",
-    "City",
-    "Province",
-    "Mobile number",
-    "Electricity account/reference/consumer number",
-    "Distribution company or licensee",
-    "Main points of the complaint",
-    "Supporting documents"
-  ],
-  "source": {
-    "name": "NEPRA Consumer Affairs Division",
-    "url": "https://nepra.org.pk/CAD-Database/CMS-CAD/cregister.php"
+
+  "first_step": "The consumer should submit the billing complaint to the relevant electricity distribution company through its Consumer Service Center, Sub-Divisional Office or One-Window Operation.",
+
+  "billing_complaint_timeframes": {
+    "wrong_meter_reading_or_wrong_calculation": "Within 7 days from receipt of complaint",
+    "defective_meter_replacement": "As soon as possible, but not later than 2 billing cycles",
+    "wrong_late_payment_surcharge": "Within 3 days from receipt of complaint",
+    "billing_adjustments": "Within 3 days from receipt of complaint",
+    "detection_bill": "Within 15 days from receipt of complaint"
   },
-  "verified": true
+
+  "escalation": "If the consumer is not satisfied with the distribution company's response or the distribution company does not respond, applicable further complaint options include filing a complaint with NEPRA under the relevant legal provisions.",
+
+  "useful_bill_information": [
+    "Reference number",
+    "Meter number",
+    "Reading date",
+    "Present meter reading",
+    "Previous meter reading",
+    "Total units consumed",
+    "Billing history",
+    "Amount payable",
+    "Arrears",
+    "Late payment surcharge"
+  ],
+
+  "source": {
+    "name": "NEPRA Consumer Service Manual (Revised/Updated 2025)",
+    "url": "https://nepra.org.pk/Legislation/7-Manuals/2025/CONSUMER%20SERVICE%20MANUAL%20%28CSM%29%20REVISED%202025.pdf",
+    "verified_date": "2026-10-03"
+  }
 }
