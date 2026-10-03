@@ -1,1 +1,4 @@
-
+source_id,category,source_name,source_url,authority,description,last_verified
+ELEC001,electricity,NEPRA Consumer Service Manual Revised 2025,https://nepra.org.pk/Legislation/7-Manuals/2025/CONSUMER%20SERVICE%20MANUAL%20%28CSM%29%20REVISED%202025.pdf,NEPRA,Official consumer service rules and procedures for electricity consumers,2026-10-03
+ELEC002,electricity,FESCO Customer Services,https://fesco.com.pk/cServices,FESCO,FESCO customer services including bill correction defective meter and other procedures,2026-10-03
+ELEC003,electricity,NEPRA Complaint Management System,https://nepra.org.pk/CAD-Database/CMS-CAD/home.php,NEPRA,Official system for registering and tracking consumer complaints,2026-10-03
