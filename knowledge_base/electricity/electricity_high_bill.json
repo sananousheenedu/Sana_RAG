@@ -4,6 +4,18 @@
   "issue": "high_or_incorrect_bill",
 
   "problem_description": "The consumer reports that an electricity bill is unexpectedly high or believes there is an error in the bill.",
+  {
+  "id": "electricity_high_bill",
+  "category": "electricity",
+  "issue": "high_or_incorrect_bill",
+
+  "keywords": [
+    "high bill", "wrong bill", "excess bill", "meter reading", "overbilling",
+    "bill zyada", "bill bohat zyada", "bijli ka bill", "ghalat bill", "meter reading ghalat",
+    "بجلی کا بل", "بل زیادہ", "غلط بل"
+  ],
+
+  "problem_description": "The consumer reports that ...",
 
   "authority": "Relevant electricity distribution company (DISCO)",
 
