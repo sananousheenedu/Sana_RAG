@@ -3,6 +3,16 @@
   "category": "electricity",
   "provider": "FESCO",
   "provider_full_name": "Faisalabad Electric Supply Company",
+  "applies_to": "FESCO",
+
+  "keywords": [
+    "fesco", "faisalabad electric", "fesco service", "fesco office", "fesco customer service",
+    "fesco complaint", "fesco bill correction", "fesco duplicate bill", "fesco meter",
+    "defective meter", "bill estimator", "load management", "new connection", "net metering",
+    "fesco ka bill", "fesco shikayat", "fesco meter kharab", "meter kharab", "duplicate bill",
+    "نیا کنکشن", "فیسکو", "فیسکو شکایت", "فیسکو بل", "میٹر خراب"
+  ],
+
   "services": [
     "Customer Bill Correction",
     "Duplicate Bills",
@@ -12,15 +22,18 @@
     "Electricity Tariff",
     "Customer service procedures and forms"
   ],
+
   "high_bill_support": {
     "service": "Customer Bill Correction",
     "purpose": "For consumers who believe their electricity bill contains an error or needs correction.",
     "official_customer_services_page": "https://fesco.com.pk/cServices"
   },
+
   "defective_meter": {
     "service": "Procedure for replacement of defective meter",
     "official_customer_services_page": "https://fesco.com.pk/cServices"
   },
+
   "online_services": {
     "official_fesco_eServices": "https://fesco.com.pk/eServices",
     "available_services": [
@@ -31,10 +44,13 @@
       "Net Metering"
     ]
   },
+
   "source": {
-    "name": "FESCO Customer Services",
-    "url": "https://fesco.com.pk/cServices",
     "authority": "FESCO",
+    "name": "FESCO Customer Services",
+    "document": "Customer Services page (Customer Bill Correction, defective meter replacement procedure) and eServices page",
+    "url": "https://fesco.com.pk/cServices",
+    "additional_url": "https://fesco.com.pk/eServices",
     "verified_date": "2026-10-03"
   }
 }
