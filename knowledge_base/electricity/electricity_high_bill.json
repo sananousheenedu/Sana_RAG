@@ -1,1 +1,30 @@
-
+{
+  "id": "electricity_high_bill",
+  "category": "electricity",
+  "issue": "high_or_incorrect_bill",
+  "problem_description": "The citizen reports that their electricity bill is unusually high or believes the bill may contain an error.",
+  "first_authority": "Relevant electricity distribution company",
+  "escalation_authority": "NEPRA",
+  "procedure": [
+    "Review the electricity bill and identify the issue.",
+    "Approach the relevant electricity distribution company or concerned SDO/XEN regarding the complaint.",
+    "If the grievance is not resolved, use the applicable NEPRA complaint process."
+  ],
+  "required_information": [
+    "CNIC",
+    "Name",
+    "Address",
+    "City",
+    "Province",
+    "Mobile number",
+    "Electricity account/reference/consumer number",
+    "Distribution company or licensee",
+    "Main points of the complaint",
+    "Supporting documents"
+  ],
+  "source": {
+    "name": "NEPRA Consumer Affairs Division",
+    "url": "https://nepra.org.pk/CAD-Database/CMS-CAD/cregister.php"
+  },
+  "verified": true
+}
